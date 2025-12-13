@@ -5,29 +5,29 @@ Users answer a short, anonymous questionnaire related to personal, workplace, an
 This tool is intended only for general guidance and awareness and does not replace professional advice.
 
 ## Key Features:
--Clean and user-friendly multi-page web interface
+- Clean and user-friendly multi-page web interface
 
--Machine learning model trained on survey data
+- Machine learning model trained on survey data
 
--Predicts likelihood of seeking wellbeing support
+- Predicts likelihood of seeking wellbeing support
 
--Provides friendly, non-judgmental insights
+- Provides friendly, non-judgmental insights
 
--Fully anonymous — no data is stored
+- Fully anonymous — no data is stored
 
--Deployed as a web application using Flask and Render
+- Deployed as a web application using Flask and Render
 
 ## Tech Stack Used:
--Programming Language: Python
+- Programming Language: Python
 
--Machine Learning: Scikit-learn
+- Machine Learning: Scikit-learn
 
--Data Processing: Pandas, NumPy
+- Data Processing: Pandas, NumPy
 
--Web Framework: Flask
+- Web Framework: Flask
 
--Frontend: HTML, CSS
+- Frontend: HTML, CSS
 
--Model Serialization: Joblib
+- Model Serialization: Joblib
 
-Deployment Platform: Render
+- Deployment Platform: Render
