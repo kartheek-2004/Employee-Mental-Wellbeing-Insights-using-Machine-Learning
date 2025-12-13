@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Wellbeing Insight</title>
+
+    <style>
+        body {
+            background-color: #fafafa;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            background-color: #f0f4f8;
+            padding: 30px;
+            border-radius: 12px;
+            max-width: 650px;
+            margin: 60px auto;
+            border: 2px solid #444;
+            text-align: center;
+        }
+
+        h2 {
+            color: #2a3d66;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 12px 0;
+            line-height: 1.5;
+        }
+
+        .note {
+            color: gray;
+            font-size: 14px;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        a.button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 18px;
+            background-color: #4a90e2;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        a.button:hover {
+            background-color: #357abd;
+        }
+        ul {
+            text-align: left;
+            display: inline-block;
+            margin-top: 15px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Your Wellbeing Insight</h2>
+        <h4>After evaluating your responses, here are a few thoughtful insights:</h4>
+        <!-- <p>{{ insight }}</p> -->
+
+        <ul>
+            {% for point in insight %}
+                <li>{{ point }}</li>
+            {% endfor %}
+        </ul>
+
+        <!-- <p><strong>Confidence Score:</strong> {{ probability }}</p> -->
+
+        <a class="button" href="/">Return to Home</a>
+    </div>
+
+    <p class="note">
+        Note: This tool provides general wellbeing insights and should not replace professional guidance.
+    </p>
+
+</body>
+</html>
